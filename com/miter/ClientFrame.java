@@ -34,6 +34,7 @@ class ClientFrame extends JFrame {
     //创建聊天消息框
     JTextArea jtaChat = new JTextArea();
 
+    
     //当前在线列表的列标题
     String[] colTitles = {" ", "IP", "端口"};
     //当前在线列表的数据
