@@ -33,6 +33,7 @@ public class Client {
         //设置客户端窗口为可见
         cframe.setVisible(true);
 
+        
         try {
             //连接服务器
             client = new Socket(InetAddress.getLocalHost(), 6666);
