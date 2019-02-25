@@ -35,6 +35,7 @@ class ServerThread implements Runnable{
         this.ip = ip;
         this.port = port;
         this.uid = ip+":"+port;
+        
     }
 
     @Override
